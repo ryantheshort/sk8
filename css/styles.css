@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+header {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+body {
+    min-height: 100vh;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: 0;
+    width: 100%;
+    
+}
+
+:root {
+    --buttons: #a73634;
+}
+
+.social-icons {
+    display: flex;
+    width: 200px;
+    font-size: 60px;
+    align-items: right;
+    
+}
+.col-sm-3 > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--buttons);
+    font-weight: 300;
+    color: #fff;
+    padding-right:20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-12 {
+    position: relative;
+    width: 100%;
+}
+.top-image {
+    position: relative;
+    width: 100%;
+    size: cover;
+    border-image-repeat: no-repeat;
+}
+.peralta-logo {
+    position: absolute;
+}
+.social-icons > .fa-brands.fa-square-facebook {
+    color: #465790;
+}
+.social-icons > .fa-sharp.fa-solid.fa-square-rss {
+    color: #c49145;
+}
+.social-icons > .fa-brands.fa-square-twitter {
+    color: #708dc2
+}
+.social-icons > .fa-brands.fa-square-youtube {
+    color: #a54134;
+}
+.container {
+    justify-content: center;
+    height: 100vh;
+}
