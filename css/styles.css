@@ -123,6 +123,7 @@ nav ul li a {
 .top-image .grid {
     position: absolute;
     inset: 0;
+    opacity: 25%
 }
 
 .top-image .logo {
