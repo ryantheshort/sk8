@@ -123,14 +123,15 @@ nav ul li a {
 .top-image .grid {
     position: absolute;
     inset: 0;
-    opacity: 25%
+    opacity: 25%;
 }
 
 .top-image .logo {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 13%;
+    left: 2%;
     z-index: 20;
+    height: 75%;
 
 }
 
@@ -240,9 +241,7 @@ nav ul li a {
 }
 
 
-/* ---- end skateboarders ---- */
-
-/* ---- boards ---- */
+/* ---- BOARDS COLUMN ---- */
 
 .boards {
     width: auto;
@@ -251,13 +250,14 @@ nav ul li a {
 
 .boards .image-container {
     width: 100%;
-    height: 265px;
+    height: 290px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
     margin: 0;
     overflow: auto;
+    background-color: #fff;
 }
 
 .boards img {
@@ -265,9 +265,7 @@ nav ul li a {
     width: auto;
 }
 
-/* ---- end boards ---- */
-
-/* ---- contact ---- */
+/* === CONTACT FORM === */
 
 .contact {
     width: 100%;
